@@ -489,9 +489,9 @@ padding:10px 0;
   /* ########################   TESTIMONIALS */
 
 #TESTIMONIALS{
-    background-attachment: fixed;
     background: linear-gradient(rgba(0,0,0,0.9),rgba(0,0,0,0.8)),url(../img/cover3.jpg);
     background-size: cover;background-position: center;
+    background-attachment: fixed;
 }.review{
     padding: 30px;
     border: 2px solid #333;
