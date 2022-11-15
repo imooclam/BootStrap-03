@@ -1,0 +1,182 @@
+
+
+
+
+
+@media(max-width:576px ){
+    .nav-item{
+        box-shadow:  6px 6px 12px rgba(0, 0, 0, 1.19),
+        -6px -6px 12px rgb(255, 255, 255,2)
+        ;
+        background-color: #eaeaea;
+        position: relative;
+        border-radius: 5%;
+        margin-top: 2px;
+        padding: .2rem;
+        font-weight: 500;
+    }
+    .navbar{
+
+        padding: .5rem; 
+     }
+    .Hero__input{
+        position: absolute;
+        top:70%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        margin: 0 auto;
+        height: 80px;
+      
+    }
+    .Hero__h1{
+        /* position: absolute;
+        top:40%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        width: 100%;
+        text-align: center;
+        color: white;
+        font-size: clamp(1.5rem, 2.5vw, 4rem);  */
+           }
+    .Hero__p{
+       
+        /* font-size: clamp(1.2rem, 3vw, 2.5rem);  */
+        }
+  
+    
+    
+    .Hero__input .btn1 {
+       display: none;
+    }
+     .btn2 {
+       display: block;
+       position: absolute;
+       background-color: #eaeaea;
+       top:85%;
+       left: 50%;
+       transform: translate(-50%,-50%);
+       padding: 1rem 2rem;
+   
+    box-shadow:   2px 6px 12px rgba(0, 0, 0, 0.19),
+    -6px -6px 12px rgb(255, 255, 255,1)
+    ;
+    }
+     .btn2:hover {
+ 
+         background-color: #eaeaea;
+   
+    box-shadow:  inset 6px 6px 12px rgba(0, 0, 0, 0.19),inset
+    -6px -6px 12px rgb(255, 255, 255,1)
+    ;
+    }
+     .btn2::before{
+         content: "";
+         position: absolute;
+         right: 10px;
+         left: 10px;
+         top: 10px;
+         bottom: 10px;
+         box-shadow:  6px 6px 12px rgba(0, 0, 0, 0.19),
+         -6px -6px 12px rgb(255, 255, 255,1)
+         ;
+         
+        }
+        .btn2:hover::before{
+        content: "";
+        position: absolute;
+        right: 2px;
+        left: 2px;
+        top: 2px;
+        bottom: 2px;
+        box-shadow:  inset 6px 6px 12px rgba(0, 0, 0, 0.19),inset
+        -6px -6px 12px rgb(255, 255, 255,1)
+        ;
+        
+    }
+}
+
+
+    @media (max-width:576px){
+        .btn2 {
+            display: none;
+        }
+        .main-header .test1{
+          font-size: 2rem;
+          text-transform: capitalize;
+        }
+        .main-header p{
+          font-size: 4vw;
+          text-transform: capitalize;
+        }
+        .mile{
+         
+          height: auto;
+
+      
+      }
+      .review p{
+        font-size: 1.1rem;
+      }
+      .review h3{
+        font-size: 1rem;
+      }
+      .review small{
+        font-size: .8rem;
+      }
+      .card-body img{
+        width: 100%;
+        height: auto;
+    }
+    .TEAM .blog-p{
+        font-size: 1rem;
+    }
+    .foot{
+        position: relative;
+        z-index: -1;
+    
+    }
+    .foot-bar{
+        bottom: 0;
+        
+    
+    }
+    .footEnd{
+    background-color: #010000;
+    color: white;
+    font-size:.7rem;
+    
+    
+    }
+    strong em{
+        color: #ff6600;
+    }
+    .tide{
+        margin-top: 20px;
+    }
+    
+    .menu-nav  {
+   
+        cursor: pointer;
+    }
+    .menu-nav li a{
+        font-size: 1rem;
+        color: #999;
+        cursor: pointer;
+    }
+    .tide h6{
+        font-size: 1.2rem;
+    }
+    input{
+        padding: 30px;
+        height: 50px;
+    }
+    textarea{
+        resize: none;
+    min-height: 150px;
+    }
+    strong em{
+        color: #ff0000;
+        font-size: .8rem;
+    }
+    }
