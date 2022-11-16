@@ -18,7 +18,6 @@ function scroll(){
 
 }
 scroll()
-$(window).on('load',function(){
 
 
 // $('.owl-carousel').owlCarousel({
